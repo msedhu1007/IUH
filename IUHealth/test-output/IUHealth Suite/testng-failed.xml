@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IUHealth Suite]">
+  <parameter name="1" value=""/>
+  <parameter name="2" value=""/>
+  <parameter name="CH" value=""/>
+  <test name="2.SC002(failed)">
+    <parameter name="2" value=""/>
+    <classes>
+      <class name="test.scripts.forgotUserName_1005a">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="tear"/>
+          <include name="setup"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- test.scripts.forgotUserName_1005a -->
+      <class name="test.scripts.forgotUserName_1005b">
+        <methods>
+          <include name="verify_forgotUserName_1005b"/>
+          <include name="tear"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- test.scripts.forgotUserName_1005b -->
+    </classes>
+  </test> <!-- 2.SC002(failed) -->
+</suite> <!-- Failed suite [IUHealth Suite] -->

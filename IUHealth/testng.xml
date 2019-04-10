@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SuiteName" parallel="none" thread-count="1">
+	<test name="Test_IE">
+		<classes>
+			<parameter name="Browser-name" value="IE" />
+			<class name="test.scripts.forgotUserName_1005a" />
+			<class name="test.scripts.forgotUserName_1005b" />
+		</classes>
+	</test>
+		
+</suite>
